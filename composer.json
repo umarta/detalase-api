@@ -1,0 +1,32 @@
+{
+    "name": "apimatic/detalaseapi",
+    "type": "library",
+    "description": "TODO: Add Description",
+    "keywords": ["detalase-api","API","SDK"],
+    "homepage": "https://apimatic.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rahmad umarta",
+            "email": "umarta@alig.co.id",
+            "homepage": "https://apimatic.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "mashape/unirest-php": "~3.0.1",
+        "apimatic/jsonmapper": "~1.3.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.7",
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DetalaseApiLib\\": "src/"
+        }
+    }
+}
